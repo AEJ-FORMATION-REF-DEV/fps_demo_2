@@ -22,6 +22,9 @@
 
 <!--style-->
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
 
 <!--owl carousel-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
@@ -81,9 +84,9 @@
             <li class="nav-item">
                 <a class="nav-link active" href="index.html">ACCUEIL <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="about.html">A PROPOS</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="offres.html">NOS OFFRES</a>
             </li>
@@ -107,8 +110,7 @@
     
 
     <!--main carousel-->
-    <div  data-aos="fade-left"
-                  data-aos-duration="2000" class="carousel">
+    <div  class="carousel">
                   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -148,26 +150,76 @@
 
 
     <!--a propos-->
+
+
+    
+
+    <!--fin-->
+
+
+
+
+
+
+
+
     
       <div class="container about" id="about">
         <!-- <h2 class="title">A Propos de FPS</h2> -->
         <div class="soulignage"></div>
         <div class="row">
-            <div class="col-lg-6 about-item"  data-aos="fade-up"
+            <div class="col-lg-7 about-item"  data-aos="fade-up"
                                               data-aos-duration="2000">
-                <h4 class="title_center mb-4">Présentation </h4>
-                <p>FPS EDUC, créer par le biais de ses partenaires universitaires octroie des bourses d'études pour les destinations de Turquie, Chypre du Nord, Canada, France et Italie. Cette bourse est destinée aux élèves et étudiants de Côte d'Ivoire et d'autres pays.     <br/>            
-                  FPS EDUC, c'est un projet bien ficelé par des professionnels et des universités prestigieuses d'Europe, qui a permis de décembre 2018 à décembre 2021, d'envoyer plus de 900 étudiants.
-                  <br/> <br/>
-                  <button class="btn btn-primary"><a href="pdf.pdf" class="mt-4">Télécharger la brochure</a></button>
-                </p>
+                                              <div class="accordion" id="accordionExample1" 
+                                              data-aos="fade-up"
+                                              data-aos-duration="1000">
+                                                <div class="card">
+                                                  <div class="card-header" id="headingOne">
+                                                    <h2 class="mb-0">
+                                                      <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#aboutcollapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                        Présentation
+                                                      </button>
+                                                     
+                                                    </h2>
+                                                  </div>
+                                              
+                                                  <div id="aboutcollapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                                    <div class="card-body">
+                                                      FPS EDUC, créer par le biais de ses partenaires universitaires octroie des bourses d'études pour les destinations de Turquie, Chypre du Nord, Canada, France et Italie. Cette bourse est destinée aux élèves et étudiants de Côte d'Ivoire et d'autres pays.     <br/>            
+                                                            FPS EDUC, c'est un projet bien ficelé par des professionnels et des universités prestigieuses d'Europe, qui a permis de décembre 2018 à décembre 2021, d'envoyer plus de 900 étudiants.
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="card">
+                                                  <div class="card-header" id="headingTwo">
+                                                    <h2 class="mb-0">
+                                                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#aboutcollapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                        A qui nos bourses s'adressent
+                                                      </button>
+                                                    </h2>
+                                                  </div>
+                                                  <div id="aboutcollapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                                    <div class="card-body">
+                                                      Nos bourses d'étude, sont destinées aux élèves et etudiants de toutes les nationalités.<br>
+                                                      Pour les bourses d'études de 50%, il faut s'adresser à FPS EDUC, et présenter les documents d'inscription requis.<br>
+                                                      Quant aux bourses allant de 60% à 100%, les universités en collaboration avec FPS EDUC, les octroient
+                                                      sur la base d'un test en anglais et en français, auquel les élèves et étudiants s'inscrivent et participent.
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                
+                                              </div>
             </div>
-            <div class="col-lg-6 about-item mb-3"  data-aos="fade-up"
+            <div class="col-lg-5 about-item mb-3"  data-aos="fade-up"
                                               data-aos-duration="2000">
                 <h4 class="title_center mb-4">Le Directeur Genéral</h4>
                 <img src="img/mr_lotis.png" alt="Directeur general">
-                <p style="margin: 15px auto;" class="text-center">
-                    Les mots du directeur
+                <p style="margin: 15px auto;" class="">
+                    Les mot du directeur <br>
+                    En acceuillant nos étudiants, nous nous engageons à mettre en place le processus pour voyager dans de bonnes  conditions, en leur assistant sur tout les circuits ou process academique.
+                    <br> Notre mission est de les aider à travailler, acquerir des méthodes, mais ausi favoriser leur apprentissage de la citoyenneté, de la solidarité, pour une bonne interation sociale et une insertion professionnelle satifaisante.<br>
+
+
                 </p>
             </div>
         </div>
@@ -640,6 +692,14 @@
         </div>
       </div>
     </div>
+
+    <!--notre equipe-->
+    <div class="container-fluid equipes">
+      <h2 class="title"> notre equipe</h2>
+      <div class="soulignage"></div>
+  
+      <img alt="equipe de fps" src="img/about_2.png">
+    </div>
   
 
     <!--testimonial-->
@@ -756,7 +816,7 @@
                    <div class="text-white h4 d-none d-lg-block d-xl-block text-center">
                     Qui sommes nous ?
                    </div>
-                  <div class="collapse text-white d-lg-flex show" id="one" data-parent="#accordion" aria-controls="collapseone">
+                  <div class="collapse text-white d-lg-flex" id="one" data-parent="#accordion" aria-controls="collapseone">
                       <ul>
                         <p style="margin-top: 10px;">Nous sommes FPS SARL, une entreprise spécialisée dans la représentation commerciale.Ainsi 
                           au travers de notre branche FPS EDUC, nous représentons de grandes universités basées
@@ -776,7 +836,7 @@
                   <div class="collapse text-white d-lg-flex " id="two" data-parent="#accordion" >
                     <ul style="margin:auto;">
                       <li><a href="index.html">Accueil</a></li>
-                      <li><a href="about.html">A Propos</a></li>
+                      <!-- <li><a href="about.html">A Propos</a></li> -->
                       <li><a href="offres.html">NOS offres</a></li>
                       <li><a href="actualite.html">EVENEMENTS</a></li>
                       <li><a href="fondation.html">fondation</a></li>

@@ -3,7 +3,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    font-family: sans-serif;
+    font-family: roboto;
 }
 /*header contact*/
 .header-contact{
@@ -85,11 +85,11 @@ body{
 
 #toTopBtn {
     position: fixed;
-    bottom: 26px;
-    right: 39px;
+    bottom: 15px;
+    right: 5px;
     z-index: 98;
-    padding: 21px;
-    background-color: hsla(5, 76%, 62%, .8)
+    padding: 20px;
+    background-color: hsl(54.8, 97.3%, 44.3%);
 }
 
 .js .cd-top--fade-out {
@@ -98,13 +98,13 @@ body{
 
 .js .cd-top--is-visible {
     visibility: visible;
-    opacity: 1
+    opacity: 1;
 }
 
 .js .cd-top {
     visibility: hidden;
     opacity: 0;
-    transition: opacity .3s, visibility .3s, background-color .3s
+    transition: opacity .3s, visibility .3s, background-color .3s;
 }
 
 .cd-top {
@@ -380,7 +380,7 @@ a:hover{
 }
 .footer ul li a{
     color: #fff;
-    font-size: 17px;
+    font-size: 14px;
     text-transform: uppercase;
 }
 .footer ul li a:hover{
@@ -691,9 +691,7 @@ a:hover{
 	border: 5px double;    
 }
 /*equipes*/
-.equipes{
-    height: 100vh;
-}
+
 .equipes img{
     width: 100%;
 }
