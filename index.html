@@ -36,12 +36,16 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"/>
 
   <script>
-document.addEventListener('DOMContentLoaded', function() {
-  window.onscroll = function(ev) {
-    document.getElementById("cRetour").className = (window.pageYOffset > 100) ? "cVisible" : "cInvisible";
-  };
-});
-</script>
+    const top=document.querySelector(".top");
+  window.addEventListener("scroll" , () =>{
+      if(window.pageXOffset > 100){
+          top.classList.add("active");
+      }
+      else{
+          top.classList.remove("active");
+      }
+  });
+  </script>
 
     
     
@@ -62,9 +66,8 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
     
  <!--Vers le haut-->
- <div><a id="cRetour" class="cInvisible" href="#haut"></a></div>
-   
-    
+ <a href="#" class="to-top"><i class="fas fa-arrow-up"></i></a>
+ 
 
     <!--header contact-->
     <div class="header-contact">
@@ -900,6 +903,8 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
       </div>
    </div>
+
+   
 
   <!--  <div class="text-center" style="background-color: #0e1532; color: #fff;">
       Web master : atchinaymard10@gmail.com / 01 03 81 09 98 
