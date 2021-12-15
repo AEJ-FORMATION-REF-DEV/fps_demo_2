@@ -5,6 +5,8 @@ $(window).on('load', function() {
     }, 3000);
     
 });
+
+
 //carousel
 $(document).ready(function(){
 

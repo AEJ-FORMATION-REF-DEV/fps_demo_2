@@ -36,12 +36,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"/>
 
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      window.onscroll = function(ev) {
-        document.getElementById("cRetour").className = (window.pageYOffset > 100) ? "cVisible" : "cInvisible";
-      };
-    });
-    </script>
+document.addEventListener('DOMContentLoaded', function() {
+  window.onscroll = function(ev) {
+    document.getElementById("cRetour").className = (window.pageYOffset > 100) ? "cVisible" : "cInvisible";
+  };
+});
+</script>
 
     
     
@@ -60,7 +60,10 @@
             </div>
         </div>
     </div>
-
+    
+ <!--Vers le haut-->
+ <div><a id="cRetour" class="cInvisible" href="#haut"></a></div>
+   
     
 
     <!--header contact-->
@@ -160,8 +163,6 @@
    
    
 
-    <!--Vers le haut-->
-    <div><a id="cRetour" class="cInvisible" href="#haut"></a></div>
     <!--a propos-->
 
 
