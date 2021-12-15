@@ -35,6 +35,16 @@
 <!--fancybox css-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"/>
 
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      window.onscroll = function(ev) {
+        document.getElementById("cRetour").className = (window.pageYOffset > 100) ? "cVisible" : "cInvisible";
+      };
+    });
+    </script>
+
+    
+    
 </head>
 <body>
     <div class="preloader">
@@ -50,6 +60,8 @@
             </div>
         </div>
     </div>
+
+    
 
     <!--header contact-->
     <div class="header-contact">
@@ -145,10 +157,11 @@
                   </div>
     </div>
 
+   
+   
+
     <!--Vers le haut-->
-    <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
-
-
+    <div><a id="cRetour" class="cInvisible" href="#haut"></a></div>
     <!--a propos-->
 
 
