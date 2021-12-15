@@ -51,8 +51,8 @@ body{
 /*carousel*/
 
 .carousel-item img{
-    height:100vh;
-    filter: brightness(50%);
+    height:95vh;
+    filter: brightness(60%);
     margin-bottom: 15px;
 }
 .carousel-item h5{
@@ -79,7 +79,7 @@ body{
 /*vers le haut*/
 
 .scroll {
-    color: #fff;
+    color: rgb(10, 6, 6);
     margin-top: 100px
 }
 
@@ -691,9 +691,11 @@ a:hover{
 	border: 5px double;    
 }
 /*equipes*/
-
-.equipes img{
-    width: 100%;
+.equipes{
+    background-image: url('img/about_2.png');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70vh;
 }
 /*fin*/
 
@@ -710,7 +712,7 @@ a:hover{
     }
     
     .carousel-item img{
-        height: 62vh;
+        height: 58vh;
        
     }
     .form-inline .btn{
