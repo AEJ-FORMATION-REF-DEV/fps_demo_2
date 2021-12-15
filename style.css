@@ -691,7 +691,10 @@ a:hover{
 	border: 5px double;    
 }
 /*equipes*/
-.equipes{
+.equipes_vu_tel{
+    display: none;
+}
+ .equipes{
     background-image: url('img/about_2.png');
     background-size: cover;
     background-attachment: fixed;
@@ -701,6 +704,13 @@ a:hover{
 
 /*responsive*/
 @media (max-width:991px) {
+    .equipes_vu_tel{
+        display: block;
+    }
+    .equipes{
+        display: none;
+    }
+
     .title{
         margin: 5px auto;
     }
