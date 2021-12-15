@@ -25,6 +25,9 @@ body{
 .bg-light{
     background-color: #dfcc03 !important;
 }
+.sticky-top{
+    z-index: 98;
+}
 .navbar-brand img{
     height: 60px;
     width: 60px;
