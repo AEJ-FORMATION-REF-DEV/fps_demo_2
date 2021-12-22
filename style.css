@@ -39,7 +39,7 @@ body{
 .nav-item .active{
     color: #0e1532 !important;
 }
-.nav-link{
+.navbar .nav-link{
     font-weight: 600;
     color: #fff !important;
     text-transform: uppercase;
@@ -605,6 +605,52 @@ a:hover{
     color: #fff;
 }
 /*fondation*/
+.banner_fondation{
+    background-image: url('');
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+}
+.banner_fondation p{
+    text-align: center;
+}
+
+
+/*test*/
+.nav-pills-custom .nav-link {
+    color: #aaa;
+    background: #fff;
+    position: relative;
+}
+
+.nav-pills-custom .nav-link.active {
+    color: #0e1532;
+    background: #fff;
+}
+
+
+/* Add indicator arrow for the active tab */
+@media (min-width: 992px) {
+    .nav-pills-custom .nav-link::before {
+        content: '';
+        display: block;
+        border-top: 8px solid transparent;
+        border-left: 10px solid #fff;
+        border-bottom: 8px solid transparent;
+        position: absolute;
+        top: 50%;
+        right: -10px;
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+}
+
+.nav-pills-custom .nav-link.active::before {
+    opacity: 1;
+}
+
+
+
 .div{
     height: 40px;
     width: 40px;
@@ -746,7 +792,7 @@ a:hover{
     .navbar .btn:hover{
         background-color: #0e1532;
     }
-    .nav-link:hover{
+    .navbar .nav-link:hover{
         color: #fff !important;
     }  
     
