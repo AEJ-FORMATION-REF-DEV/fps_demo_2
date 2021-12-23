@@ -606,10 +606,12 @@ a:hover{
 }
 /*fondation*/
 .banner_fondation{
-    background-image: url('');
-    background-attachment: fixed;
+    background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('img/banner_fondation.jpeg');
+    height: 50vh;
     width: 100%;
-    height: 40vh;
+    background-size: cover;
+    background-attachment:fixed
 }
 .banner_fondation p{
     text-align: center;
