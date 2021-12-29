@@ -838,3 +838,9 @@ a:hover{
     min-height: 100vh;
     
 }
+
+/*modal*/
+.modal-body i{
+    color: #0e1532;
+    margin: 10px;
+}
