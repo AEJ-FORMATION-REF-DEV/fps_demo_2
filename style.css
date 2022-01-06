@@ -776,6 +776,9 @@ a:hover{
     #design_fondation_droite{
         display: none;
     }
+    #design_fondation_gauche{
+        display: none;
+    }
     .equipes_vu_tel{
         display:block;
     }
