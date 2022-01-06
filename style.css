@@ -138,22 +138,23 @@ body{
 }
 /*prestation*/
 
-.prestation .item{
+.item{
     background-color: #0e1532;
     border-radius: 5px;
     color: #fff;
     text-align: center;
     height: 300px;
+    margin: 15px auto;
 }
-.prestation .item:hover{
+.item:hover{
     background-color: #dfcc03;
     transition: 0.3s all ease-in-out
 }
-.prestation .item i{
+.item i{
     margin: 50px auto;
     font-size: 30px;
 }
-.prestation .item .description h5{
+.item .description h5{
     margin-top: 15px;
     
 }
@@ -605,9 +606,12 @@ a:hover{
     color: #fff;
 }
 /*fondation*/
+.fondation_padding ul li{
+    list-style: none;
+}
 .banner_fondation{
     background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url('img/banner_fondation.jpeg');
+    url('img/fondation/resultat.jpg');
     height: 50vh;
     width: 100%;
     background-size: cover;
@@ -616,10 +620,35 @@ a:hover{
 .banner_fondation p{
     text-align: center;
     margin-top: 100px;
-    color: #dfcc03;
+    color:#fff ;
     font-size: 25px;
 }
+.banner_fondation button{
+    height: 40px;
+    width: 150px;
+    background-color: #0e1532;
+    border: none;
+}
+.banner_fondation button a{
+    color: #fff;
+    text-decoration: none;
+}
+#design_fondation_droite{
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
 
+}
+#design_fondation_gauche{
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+
+}
+.container_fondation{
+    margin: 50px auto;
+}
+.fondation_padding{
+    padding: 25px;
+}
 
 /*test*/
 .nav-pills-custom .nav-link {
