@@ -773,6 +773,9 @@ a:hover{
 
 /*responsive*/
 @media (max-width:991px) {
+    #design_fondation_droite{
+        display: none;
+    }
     .equipes_vu_tel{
         display:block;
     }
